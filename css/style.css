@@ -55,7 +55,6 @@ nav {
 /*inizio main links navigation*/
 .main-links {
     height: 100px;
-    /*TEST*/
     background-color: black;
 }
 
@@ -98,9 +97,8 @@ nav a {
 }
 
 .playlist-container {
-    height: calc( 100% - 240px);
-    min-height: 100px;
-    /*TEST*/
+    height: calc( 100% - 270px);
+    min-height: 150px;
     background-color: black;
     overflow-y: auto;
 }
@@ -139,22 +137,42 @@ nav a {
 /*fine playlist*/
 
 
-/*inizio install app*/
-.install-app {
+/*inizio install app e profile app*/
+.profile-app-container {
     background-color: black;
-    height: 70px;
+    height: 100px;
 }
 
 .install-app-text {
     padding-bottom: 8px;
+    padding-top: 26px;
 }
 
-.border-top {
+.profile-app {
     border-top: 1px solid grey;
     margin-right: 25px;
-    padding-top: 12px
+    padding-top: 12px;
 }
-/*fine install app*/
+
+.profile-app img {
+    width: 10px;
+    height: 10px;
+}
+
+.profile-app_left {
+    float: left;
+    width: 24px;
+    border-radius: 50%;
+    background-color: #868686;
+    padding: 2px;
+}
+
+.profile-app_right {
+    float: left;
+    padding-left: 10px;
+    padding-top: 2px;
+}
+/*fine install app e profile app*/
 
 
 
