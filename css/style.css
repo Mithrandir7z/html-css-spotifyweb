@@ -1,3 +1,4 @@
+/*INIZIO COMMON*/
 * {
     margin: 0;
     padding: 0;
@@ -7,10 +8,13 @@
 #app-wrapper {
     width: 100%;
     height: 100vh;
-
-    /*TEST*/
-    background-color: aquamarine;
 }
+
+img {
+    width: 100%;
+}
+
+/*FINE COMMON*/
 
 
 
@@ -25,35 +29,68 @@ nav {
     width: 220px;
     overflow: hidden;
     color: white;
+    background-color: black;
+    padding-left: 15px;
 }
 
+
+/*inizio logo*/
 .logo {
     height: 70px;
     background-color: black;
 }
+/*fine logo*/
 
+
+/*inizio main links navigation*/
 .main-links {
     height: 100px;
     background-color: black;
 }
 
+.main-links ul {
+    list-style-type: none;
+}
+
+.main-links a {
+    text-decoration: none;
+    color: #868686;
+}
+
+.img-responsive-custom {
+    width: 20px;
+    height: auto;
+}
+
+
+/*fine main links navigation*/
+
+
 nav a {
     color: white;
 }
 
+
+/*inizio playlist*/
 .playlist-container {
     height: calc( 100% - 240px);
     min-height: 100px;
     background-color: black;
     overflow-y: auto;
 }
+/*fine playlist*/
 
 
+/*inizio install app*/
 .install-app {
     background-color: black;
     height: 70px;
 }
+/*fine install app*/
 
+
+
+/*inizio main-content colonna destra*/
 .main-content {
     height: 100%;
     float: left;
@@ -61,6 +98,7 @@ nav a {
     overflow-y: auto;
     background-color: #141922;
 }
+/*fine main-content colonna destra*/
 
 /*FINE MAIN*/
 
