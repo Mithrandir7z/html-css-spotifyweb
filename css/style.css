@@ -14,6 +14,16 @@ img {
     width: 100%;
 }
 
+.center {
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /*FINE COMMON*/
 
 
@@ -45,7 +55,8 @@ nav {
 /*inizio main links navigation*/
 .main-links {
     height: 100px;
-    background-color: black;
+    /*TEST*/
+    background-color: coral;
 }
 
 .main-links ul {
@@ -62,6 +73,15 @@ nav {
     height: auto;
 }
 
+.many_links_left {
+    float: left;
+}
+
+.many_links_right {
+    float: left;
+    line-height: 20px;
+    padding-left: 5px;
+}
 
 /*fine main links navigation*/
 
@@ -75,7 +95,8 @@ nav a {
 .playlist-container {
     height: calc( 100% - 240px);
     min-height: 100px;
-    background-color: black;
+    /*TEST*/
+    background-color: lightblue;
     overflow-y: auto;
 }
 /*fine playlist*/
