@@ -218,16 +218,25 @@ footer {
     position: fixed;
     top: 0;
     right: 0;
-    text-align: right;
     padding: 26px;
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
     width: calc( 100% - 220px );
 }
 
+.button_container {
+    text-align: right;
+}
+
 .upgrade-button a {
     text-decoration: none;
     color: white;
+    border: 1px solid white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 50px;
 }
 
 
