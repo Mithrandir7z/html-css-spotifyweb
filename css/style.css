@@ -28,6 +28,8 @@ img {
 
 
 
+
+
 /*INIZIO MAIN*/
 main {
     height: calc( 100% - 100px );
@@ -49,6 +51,13 @@ nav {
     height: 70px;
     background-color: black;
 }
+
+.logo_left img {
+    width: 50px;
+    height: auto;
+    color: white;
+}
+
 /*fine logo*/
 
 
@@ -216,3 +225,55 @@ footer {
     text-decoration: none;
     color: white;
 }
+
+
+
+
+
+
+/*INIZIO MEDIA QUERIES*/
+
+/* Small devices (tablets, 768px and up) 
+@media screen and (min-width: @screen-sm-min) { ... }
+
+/* Medium devices (desktops, 992px and up) 
+@media screen and (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) 
+@media screen and (min-width: @screen-lg-min) { ... } */
+
+
+@media screen and (max-width: 650px) {
+
+    nav {
+        background-color: black;
+        width: 40px;
+        padding-left: 10px;
+    }
+
+    .main-content {
+        width: calc( 100% - 40px );
+    }
+
+    .upgrade-button {
+        width: calc( 100% - 40px );
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .many_links_right {
+        display: none;
+    }
+
+    .playlist-container {
+        display: none;
+    }
+
+    .profile-app-container {
+        display: none;
+    }
+}
+
+/*FINE MEDIA QUERIES*/
