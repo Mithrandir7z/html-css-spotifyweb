@@ -208,7 +208,75 @@ footer {
     height: 100px;
     background-color: #282828;
     overflow: hidden;
+    /*TEST*/
+    color: white;
 }
+
+/*inizio song_container*/
+.song_container {
+    float: left;
+    background-color: coral;
+    width: 33.33%;
+    height: 100%;
+}
+
+.song_container-inner {
+    width: 100%;
+    height: 100%;
+}
+
+.album {
+    width: 33.33%;
+    height: 100%;
+    background-color: khaki;
+    float: left;
+}
+
+.album img {
+    height: auto;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.album_text {
+    padding-top: 20px;
+}
+
+.name-album-singer {
+    width: 33.33%;
+    height: 100%;
+    background-color: lightcoral;
+    float: left;
+}
+
+.album-icons {
+    width: 33.33%;
+    height: 100%;
+    background-color: lightslategray;
+    float: left;
+}
+/*fine song_container*/
+
+
+/*inizio panel_container*/
+.panel_container {
+    float: left;
+    background-color: cornflowerblue;
+    width: 33.33%;
+    height: 100%;
+}
+/*fine panel_container*/
+
+
+/*inizio volume_container*/
+.volume_container {
+    float: left;
+    background-color: hotpink;
+    width: 33.33%;
+    height: 100%;
+}
+/*fine volume_container*/
+
 /*FINE FOOTER*/
 
 
@@ -319,11 +387,16 @@ footer {
 }
 
 
-
-@media screen and (min-width: 650px) {
+/*tablet*/
+@media screen and (min-width: 651px) {
     .logo_icon_responsive {
         display: none;
     }
 }
 
+
+/*md-lg*/
+@media screen and (min-width: 992px) {
+
+}
 /*FINE MEDIA QUERIES*/
