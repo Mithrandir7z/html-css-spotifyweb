@@ -24,6 +24,7 @@ img {
     display: table;
 }
 
+
 /*FINE COMMON*/
 
 
@@ -260,18 +261,58 @@ footer {
 
 
 /*inizio media-control*/
+
+
+    /*inizio .media-control-top*/
+.media-control-top {
+    padding-bottom: 2px;
+}
+
 .media-control-top ul {
     list-style-type: none;
 }
 
 .media-control-top li {
     display: inline-block;
+    margin: 10px;
 }
 
-.media-control-top a {
-    text-decoration: none;
-    color: white;
+.media-control-top li i {
+    font-size: 15px;
 }
+
+.media-control-top li:nth-child(3) i {
+    font-size: 25px;
+}
+    /*fine .media-control-top*/
+
+
+    /*inizio .media-control-bottom*/
+.media-control-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.time-first, .time-second {
+    font-size: 11px;
+}
+
+.time-bar-container {
+    width: 300px;
+    height: 5px;
+    background-color: grey;
+    margin: 7px;
+}
+    /*fine .media-control-bottom*/
+
+
+    /*inizio volume-and-controls*/
+    
+    /*fine volume-and-controls*/
+
+
 /*fine media-control*/
 
 /*FINE FOOTER*/
