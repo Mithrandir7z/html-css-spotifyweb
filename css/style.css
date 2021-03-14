@@ -205,77 +205,74 @@ nav a {
 
 /*INIZIO FOOTER*/
 footer {
+    padding: 15px;
     height: 100px;
     background-color: #282828;
     overflow: hidden;
+    display: flex;
     /*TEST*/
     color: white;
 }
 
-/*inizio song_container*/
-.song_container {
-    float: left;
-    background-color: coral;
-    width: 33.33%;
-    height: 100%;
-}
-
-.song_container-inner {
+.footer-container {
+    display: flex;
     width: 100%;
-    height: 100%;
+    justify-content: space-between
 }
 
-.album {
-    width: 33.33%;
-    height: 100%;
-    background-color: khaki;
-    float: left;
+
+/*inizio song-control*/
+.song-control {
+    display: flex;
+    align-items: center;
 }
 
-.album img {
+.song-control img {
+    width: 53px;
     height: auto;
-    padding-left: 15px;
-    padding-top: 10px;
+    margin: 5px;
 }
 
-.album_text {
-    padding-top: 20px;
+.name-singer {
+    margin: 5px;
+    margin-bottom: 0;
 }
 
-.name-album-singer {
-    width: 33.33%;
-    height: 100%;
-    background-color: lightcoral;
-    float: left;
+.name-song {
+    margin: 5px;
+    margin-top: 0;
+    font-size: 11px;
 }
 
-.album-icons {
-    width: 33.33%;
-    height: 100%;
-    background-color: lightslategray;
-    float: left;
+.song-icons {
+    margin: 5px;
+    display: flex;
 }
-/*fine song_container*/
 
-
-/*inizio panel_container*/
-.panel_container {
-    float: left;
-    background-color: cornflowerblue;
-    width: 33.33%;
-    height: 100%;
+.fa-heart {
+    padding-left: 13px;
 }
-/*fine panel_container*/
 
-
-/*inizio volume_container*/
-.volume_container {
-    float: left;
-    background-color: hotpink;
-    width: 33.33%;
-    height: 100%;
+.fa-folder {
+    padding-left: 17px;
 }
-/*fine volume_container*/
+/*fine song-control*/
+
+
+/*inizio media-control*/
+.media-control-top ul {
+    list-style-type: none;
+}
+
+.media-control-top li {
+    display: inline-block;
+}
+
+.media-control-top a {
+    text-decoration: none;
+    color: white;
+}
+/*fine media-control*/
 
 /*FINE FOOTER*/
 
