@@ -309,7 +309,32 @@ footer {
 
 
     /*inizio volume-and-controls*/
-    
+
+.volume-and-controls {
+    display: flex;
+    align-items: center;
+}
+
+.volume-and-controls ul {
+    list-style-type: none;
+}
+
+.volume-and-controls li {
+    display: inline-block;
+    font-size: 11px;
+    margin: 6px;
+}
+
+.time-bar-second-container {
+    width: 130px;
+    height: 5px;
+    margin: 7px;
+    background-color: grey;
+}
+
+
+
+
     /*fine volume-and-controls*/
 
 
