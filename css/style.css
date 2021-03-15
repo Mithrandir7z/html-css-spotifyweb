@@ -250,6 +250,7 @@ nav a {
     width: calc( 100% / 6 );
     height: auto;
     padding: 5px;
+    position: relative;
 }
 
 .disc {
@@ -264,6 +265,13 @@ div:hover {
 .disc img {
     width: 100%;
 }
+
+/* .single-disc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
 
 .text-bottom {
     color: white;
