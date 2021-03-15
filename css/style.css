@@ -198,6 +198,31 @@ nav a {
     overflow-y: auto;
     background-color: #141922;
 }
+
+.wrapper-main {
+    width: 100%;
+    padding-top: 85px;
+}
+
+.wrapper-main ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+.wrapper-main li {
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+    padding: 8px;
+}
+
+.border-bottom {
+    width: 30px;
+    border-bottom: solid 2px olivedrab;
+    margin: auto;
+}
+
 /*fine main-content colonna destra*/
 
 /*FINE MAIN*/
@@ -262,6 +287,13 @@ footer {
 
 /*inizio media-control*/
 
+.media-control {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 
     /*inizio .media-control-top*/
 .media-control-top {
@@ -313,16 +345,15 @@ footer {
 .volume-and-controls {
     display: flex;
     align-items: center;
+    width: 15%;
 }
 
-.volume-and-controls ul {
-    list-style-type: none;
-}
 
-.volume-and-controls li {
-    display: inline-block;
+.volume-and-controls i {
+    display: flex;
+    align-items: center;
+    width: 15%;
     font-size: 11px;
-    margin: 6px;
 }
 
 .time-bar-second-container {
@@ -387,7 +418,7 @@ footer {
 @media screen and (min-width: @screen-lg-min) { ... } */
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
 
     nav {
         background-color: black;
