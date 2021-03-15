@@ -246,10 +246,26 @@ nav a {
     display: flex;
 }
 
-.wrapper-images img {
+.single-disc {
     width: calc( 100% / 6 );
     height: auto;
     padding: 5px;
+}
+
+.disc {
+    width: 100%;
+}
+
+.disc img {
+    width: 100%;
+}
+
+.text-bottom {
+    color: white;
+}
+
+.images-radius {
+    border-radius: 50%;
 }
 
 /*fine main-content colonna destra*/
@@ -513,7 +529,7 @@ footer {
         flex-wrap: wrap;
     }
 
-    .wrapper-images img {
+    .single-disc {
         width: calc( 100% / 2 );
     }
 
@@ -530,7 +546,7 @@ footer {
         flex-wrap: wrap;
     }
 
-    .wrapper-images img {
+    .single-disc {
         width: calc( 100% / 4 );
     }
 
